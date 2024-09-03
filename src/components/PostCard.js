@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/css/instagram.css";
 import cards from "../assets/data/cards";
 
-const Postcard = ({ cards }) => {
+const PostCard = ({ cards }) => {
   return (
     <div className="cards-container">
       <img src={cards.image} alt="natural" />
@@ -12,4 +12,4 @@ const Postcard = ({ cards }) => {
   );
 };
 
-export default Postcard;
+export default PostCard;

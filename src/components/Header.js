@@ -1,5 +1,4 @@
 import React from "react";
-import cards from "../assets/media";
 
 const Header = ({ instaName }) => {
   return (
